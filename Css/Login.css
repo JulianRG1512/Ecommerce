@@ -1,0 +1,83 @@
+
+.cont_login{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#form_login{
+    position: absolute;
+    display: flex;
+    top: 180px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.cont_login h4{
+    font-size: 18px;
+    width: 423px;
+    text-align: center;
+    
+
+}
+
+#inpu_email{
+    
+    width: 423px;
+    height: 63px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    padding: 0px 12px;
+    margin: 10px;
+    
+}
+
+#inpu_email::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#inpu_login{
+    
+    width: 423px;
+    height: 63px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    padding: 0px 12px;
+    margin: 10px;
+    
+}
+
+#inpu_login::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#btn_login{
+    width: 423px;
+    height: 62px;
+    cursor: pointer;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}

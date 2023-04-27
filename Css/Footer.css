@@ -1,0 +1,132 @@
+.footer_contacto{
+    height: 368px;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    gap: 115px;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 112px;
+    width: 1136px;
+    height: 240px;
+    flex-wrap: wrap;
+}
+
+.footer_listado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 176px;
+    height: 234px;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.item_lista{
+    list-style: none;
+    
+}
+
+.link_lista{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+form h4{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 560px;
+    height: 240px;
+    flex-wrap: wrap;
+}
+
+.inpu_nombre{
+    outline: none;
+    border: none;
+    width: 560px;
+    height: 56px;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    padding: 0px 12px;
+}
+
+.inpu_nombre::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mensaje{
+    outline: none;
+    border: none;
+    width: 560px;
+    height: 56px;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    padding: 12px 12px;
+}
+
+.mensaje::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 144px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footer_info{
+    align-items: center;
+    text-align: center;
+    height: 102px;
+    padding: 32px;
+}
+
+.footer_info h5,h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+}
+
+
+
+
+
+
+

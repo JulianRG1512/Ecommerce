@@ -1,0 +1,206 @@
+
+.cont_nuevoProducto{
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 0px 300px;
+    flex-wrap: wrap;
+    
+   
+}
+
+.form_nuevoProducto{
+    position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 559px;
+height: 491px;
+margin: 64px 0px;
+}
+
+.form_nuevoProducto h4{
+    font-size: 32px;
+    width: 559px;
+    height: 38px;
+}
+
+.inpu_nuevoProducto{
+    display: block;
+    width: 559px;
+    height: 50px;
+    padding-top:10px;
+    padding-left: 10px;
+    color: #464646;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    outline: none;
+}
+
+.inpu_descripcion{
+    width: 559px;
+    height: 82px;
+    padding-top:1px;
+    padding-left: 10px;
+    color: #464646;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    outline: none;
+}
+
+  .placeholder_categoria {
+    opacity: 0.6;
+    position: absolute;
+    font-size: 12px;
+    pointer-events: none;
+    left: 0;
+    top: 60px;
+    padding: 0px 10px ;
+    font-weight: 400;
+}
+
+.placeholder_nombre {
+    opacity: 0.6;
+    position: absolute;
+    font-size: 12px;
+    pointer-events: none;
+    left: 0;
+    top: 125px;
+    padding: 0px 10px ;
+    font-weight: 400;
+}
+
+.placeholder_precio {
+    opacity: 0.6;
+    position: absolute;
+    font-size: 12px;
+    pointer-events: none;
+    left: 0;
+    top: 190px;
+    padding: 0px 10px ;
+    font-weight: 400;
+}
+
+.placeholder_descripcion {
+    opacity: 0.6;
+    position: absolute;
+    font-size: 12px;
+    pointer-events: none;
+    left: 0;
+    top: 260px;
+    padding: 0px 10px ;
+    font-weight: 400;
+}
+
+.btn_agregar{
+    width: 559px;
+    height: 51px;
+    cursor: pointer;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.cont_foto{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    
+    
+}
+
+.cuadro_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-color: #C8C8C8;
+    border-width: 2px;
+    background-color: #FFFFFF;
+}
+
+.file-select h6{
+    color: #464646;
+    transform: translate(0px, -110px);
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.6;
+    
+}
+
+
+
+
+
+.foto{
+    width: 196px;
+    height: 196px;
+}
+
+
+
+.file-select {
+    position: relative;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+  
+  .file-select::before {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccionar'; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+  }
+  
+  .file-select input[type="file"] {
+    opacity: 0;
+    width: 200px;
+    height: 32px;
+    display: inline-block;
+    
+  }
+  
+  #src-file1::before {
+    content: 'Seleccionar Archivo';
+    
+    
+  }
+  #imageInput{
+    cursor: pointer;
+  }

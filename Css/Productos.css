@@ -1,0 +1,120 @@
+
+.galeria_titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    margin: 64px 160px 0px;
+    gap: 16px;
+}
+
+.galeria_titulo h2{
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.galeria_titulo .ver_todo{
+    display: 	flex;
+    justify-content: space-between;
+    width: 97px;
+    height: 24px;
+}
+
+.galeria_titulo .ver_todo a {
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.galeria_titulo .ver_todo img{
+    width: 20px;
+    height: 20px;
+    color: #2A7AE4;
+}
+
+.galeria_star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 306px;
+    margin: 0px 160px 0px;
+}
+
+.galeria_imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 176px;
+    height: 252px;
+    
+}
+
+.delete{
+    cursor: pointer ;
+    top: 28%;
+    width: 20px;
+    height: 20px;
+    transform: translate(110px, -175px);
+    opacity: 0.5;
+}
+.delete:hover{
+    opacity: 2;
+}
+
+.edit{
+    position: absolute;
+    cursor: pointer ;
+    transform: translate(140px, 8px);
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+.edit:hover{
+    opacity: 2;
+}
+
+.galeria_imagenes h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    line-height: 19px;
+}
+
+.galeria_imagenes h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #464646;
+    line-height: 19px;
+}
+
+.galeria_imagenes a{
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn_agregar{
+    background-color: #2A7AE4;
+    color: white;
+    width: 163px;
+    height: 51px;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
