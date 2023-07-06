@@ -1,16 +1,21 @@
 
 
-document.getElementById("form_login").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita que la página se recargue al enviar el formulario
+const loginForm = document.querySelector("#form_login")
 
+loginForm.addEventListener("submit", (event) => {
+    event.preventDefault() 
+    
+    const email = document.querySelector("#inpu_email").value;
+    const password = document.querySelector("#inpu_login").value;
+    const Users = JSON.parse(localStorage.getItem('users')) || []
+    
+    const validUser = Users.find(user => user.email === email && user.password === password)
 
-    const username = document.getElementById("inpu_email").value;
-    const password = document.getElementById("inpu_login").value;
-
-    if (username === "usuario@hotmail.com" && password === "contraseña123*") {
-        window.location.href = "/html/nuevoProducto.html";
-        
-    } else {
-        alert("Usuario o contraseña incorrecta");
+    if(!validUser){
+        return alert('Usuario y/o contraseña incorrectos!')
     }
+    alert(`Bienvenido ${validUser.name}`)
+    
+    localStorage.setItem('login_success', JSON.stringify(validUser))
+    window.location.href = "/html/prodcutos.html";  
 });

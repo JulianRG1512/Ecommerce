@@ -27,6 +27,7 @@ margin: 64px 0px;
     font-size: 32px;
     width: 559px;
     height: 38px;
+    margin-bottom: 30px;
 }
 
 .inpu_nuevoProducto{
@@ -58,13 +59,13 @@ margin: 64px 0px;
     outline: none;
 }
 
-  .placeholder_categoria {
+.placeholder_imagen {
     opacity: 0.6;
     position: absolute;
     font-size: 12px;
     pointer-events: none;
     left: 0;
-    top: 60px;
+    top: 90px;
     padding: 0px 10px ;
     font-weight: 400;
 }
@@ -75,7 +76,7 @@ margin: 64px 0px;
     font-size: 12px;
     pointer-events: none;
     left: 0;
-    top: 125px;
+    top: 160px;
     padding: 0px 10px ;
     font-weight: 400;
 }
@@ -86,7 +87,7 @@ margin: 64px 0px;
     font-size: 12px;
     pointer-events: none;
     left: 0;
-    top: 190px;
+    top: 220px;
     padding: 0px 10px ;
     font-weight: 400;
 }
@@ -97,7 +98,7 @@ margin: 64px 0px;
     font-size: 12px;
     pointer-events: none;
     left: 0;
-    top: 260px;
+    top: 290px;
     padding: 0px 10px ;
     font-weight: 400;
 }

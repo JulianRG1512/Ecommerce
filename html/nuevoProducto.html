@@ -17,9 +17,9 @@
                 <div class="header">
                     <div class="cont_busqueda">
                         <a href="/index.html"><img class="logo" src="/img/Logo.png" alt="logo"></a>
-                        <input class="busqueda" type="text" placeholder="¿Que desea Buscar?" >
+                        <a href="/html/prodcutos.html"><input class="admin2"type="submit" value="Menú administrador"></a>
                     </div>
-                    <a href="/index.html"><input class="login"type="submit" value="Menú administrador"></a>
+                   
                 </div>
             </header>
 
@@ -40,15 +40,15 @@
                 </div>
             </div> 
             
-            <form class="form_nuevoProducto" >
+            <form class="form_nuevoProducto" data-form >
                 <h4>Agregar nuevo producto</h4>
-                <input class="inpu_nuevoProducto" type="text" required>
-                <label for="custom-input" class="placeholder_categoria">Categoría:</label>
-                <input class="inpu_nuevoProducto" type="text" required>
+                <input class="inpu_nuevoProducto" type="text" required data-img>
+                <label for="custom-input" class="placeholder_imagen">Link de la imagen:</label>
+                <input class="inpu_nuevoProducto" type="text" required data-nombre>
                 <label for="custom-input" class="placeholder_nombre">Nombre del producto:</label>
-                <input class="inpu_nuevoProducto" type="text" required>
+                <input class="inpu_nuevoProducto" type="text" required data-precio>
                 <label for="custom-input" class="placeholder_precio">Precio del producto:</label>
-                <input class="inpu_descripcion" type="text" required>
+                <input class="inpu_descripcion" type="text" required data-descripcion>
                 <label for="custom-input" class="placeholder_descripcion">Descripción del producto:</label>
                 <a href="#"><input class="btn_agregar" type="submit" value="Agregar producto"></a> 
             </form>
@@ -93,6 +93,8 @@
         </div>
     </footer>
         <script src="/js/img.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="/controllers/crear-controllers.js"></script>
    
 </body>
 </html>

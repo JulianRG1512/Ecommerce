@@ -1,0 +1,19 @@
+{
+  "productos": [
+    
+    {
+      "imagen": "https://github.com/JulianRG1512/Ecommerce/blob/main/img/Consolas/unsplash_wa5z9o9fgjw.png?raw=true",
+      "nombre": "Controles Switch",
+      "precio": "7800",
+      "descripcion": "Contrsoles Rojo y Azul",
+      "id": "5b72bc91-9d7b-433e-9dd4-6e1922ef2ba3"
+    },
+    {
+      "imagen": "https://i.ibb.co/X8NVmGV/unsplash-j-MT6-Brg-Bu-XU.png",
+      "nombre": "Radio",
+      "precio": "8500",
+      "descripcion": "Radio reloj",
+      "id": "02c47de7-f5fe-4a88-aaf8-1ac934f688ce"
+    }
+  ]
+}

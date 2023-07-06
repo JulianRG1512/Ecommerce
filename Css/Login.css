@@ -13,12 +13,19 @@
 #form_login{
     position: absolute;
     display: flex;
-    top: 180px;
+    top: 150px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
 
-    
+#form_registro{
+    position: absolute;
+    display: flex;
+    top: 130px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .cont_login h4{
@@ -28,6 +35,27 @@
     
 
 }
+
+#inpu_nombre{
+    
+    width: 423px;
+    height: 63px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C8C8C8 ;
+    border-radius: 4px;
+    background: #FFFFFF;
+    padding: 0px 12px;
+    margin: 10px;
+    
+}
+
+#inpu_nombre::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 
 #inpu_email{
     
