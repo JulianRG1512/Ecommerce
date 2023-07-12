@@ -56,8 +56,10 @@ margin: 64px 0px;
     border-bottom: 1px solid #C8C8C8 ;
     border-radius: 4px;
     background: #FFFFFF;
-    outline: none;
 }
+
+
+
 
 .placeholder_imagen {
     opacity: 0.6;
@@ -76,7 +78,7 @@ margin: 64px 0px;
     font-size: 12px;
     pointer-events: none;
     left: 0;
-    top: 160px;
+    top: 155px;
     padding: 0px 10px ;
     font-weight: 400;
 }
@@ -101,6 +103,8 @@ margin: 64px 0px;
     top: 290px;
     padding: 0px 10px ;
     font-weight: 400;
+    
+    
 }
 
 .btn_agregar{

@@ -16,7 +16,7 @@ formulario.addEventListener('submit', (event) => {
     .crearDato(imagen,nombre,precio,descripcion)
     .then(respuesta => {
         window.location.href = "/html/nuevoProducto.html"
-    }).catch(error => console.log(error));
+    }).catch(error => window.location.href = "/html/nuevoProducto.html");
 
 });
 

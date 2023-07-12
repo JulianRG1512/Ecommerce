@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="../Css/nuevoProducto.css">
     <link rel="stylesheet" href="../Css/style.css">
     <link rel="stylesheet" href="../Css/Footer.css">
-    <title>Nuevo Producto</title>
+    <link rel="stylesheet" href="../Css/edicion_concluida.css">
+    <title>Edicion Exitosa</title>
     
 </head>
             <header>
@@ -24,35 +25,19 @@
             </header>
 
 <body>
+    
     <main>
-        <div class="cont_nuevoProducto" >
-           <!-- 
-            
-            <div class="cont_foto">
-                <div class="cuadro_foto">
-                        <img class="foto"  id="preview" src="#" alt="Imagen seleccionada" style="display: none;">
-                </div>
-                                              
-                <div class="file-select" id="src-file1" >
-                    <h6 id="text_imagen">Agregue una imagen para el producto</h6>
-                    <input type="file" id="imageInput" name="src-file1" aria-label="Archivo" required>
-                    
-                </div>
-            </div> 
-            -->
-            <form class="form_nuevoProducto" data-form >
-                <h4>Agregar nuevo producto:</h4>
-                <input class="inpu_nuevoProducto" type="text" required data-img>
-                <label for="custom-input" class="placeholder_imagen">Link de la imagen:</label>
-                <input class="inpu_nuevoProducto" type="text" required data-nombre>
-                <label for="custom-input" class="placeholder_nombre">Nombre del producto:</label>
-                <input class="inpu_nuevoProducto" type="text" required data-precio>
-                <label for="custom-input" class="placeholder_precio">Precio del producto:</label>
-                <input class="inpu_descripcion" type="text" required data-descripcion>
-                <label for="custom-input" class="placeholder_descripcion">Descripción del producto:</label>
-                <a href="#"><input class="btn_agregar" type="submit" value="Agregar producto"></a> 
-            </form>
+        
+        <div class="container">
+            <span class="register-card__icon-complete"><img src="/img/check.png" alt=""></span>
+            <h1 class="register-card__title card__title">
+              Producto editado exitosamente!!!
+            </h1>
+            <a href="/html/prodcutos.html"><input class="btn_exitoso" type="submit" value="Ver Productos"></a>
         </div>
+            
+        
+        
     </main>
 
     <footer class="footer_contacto">

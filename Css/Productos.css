@@ -40,12 +40,11 @@
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
-    
     flex-wrap: wrap;
     margin: 0px 160px 0px;
 }
 
-
+/*
 .galeria_imagenes{
     display: flex;
     justify-content: center;
@@ -77,33 +76,10 @@
     height: 252px;
     
 }
+*/
 
 
 
-
-.delete{
-    cursor: pointer ;
-    top: 28%;
-    width: 20px;
-    height: 20px;
-    transform: translate(110px, -175px);
-    opacity: 0.5;
-}
-.delete:hover{
-    opacity: 2;
-}
-
-.edit{
-    position: absolute;
-    cursor: pointer ;
-    transform: translate(140px, 8px);
-    width: 20px;
-    height: 20px;
-    opacity: 0.5;
-}
-.edit:hover{
-    opacity: 2;
-}
 
 .h6{
     
@@ -152,6 +128,17 @@
     cursor: pointer;
 }
 
+.btn_editar{
+    background-color: #09852e;
+    color: white;
+    width: 163px;
+    height: 51px;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
 .grid-container {
     display: grid;
   }
@@ -172,30 +159,59 @@
  }
 
   .grid-elemento {
-    
     width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    user-select: none;
+}
+
+.grid-btn {
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 20px 260px;
+    user-select: none;
+}
+
+.grid-descripcion {
+    
+    width: 300px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 20px 20px 20px;
-    
-    
-  }
+    text-align: center;
+    margin: 20px 20px 20px 100px;
+    user-select: none;
+}
+
   #descripcion {
     width: 200px;
     padding: 10px;
-    
     border: none;
     margin: 20px 20px 20px 20px;
+    resize: none;
+    user-select: none;
+    background-color: white;
+        
   }
+
+ 
+
 
   .delete2{
     cursor: pointer ;
     top: 28%;
     width: 20px;
     height: 20px;
-    transform: translate(-25px, -0px);
+    transform: translate(55px, -34px);
     opacity: 0.5;
 }
 .delete2:hover{
@@ -205,7 +221,7 @@
 .edit2{
     position: absolute;
     cursor: pointer ;
-    transform: translate(55px, 0px);
+    transform: translate(-30px, 15px);
     width: 20px;
     height: 20px;
     opacity: 0.5;

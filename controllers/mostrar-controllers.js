@@ -7,25 +7,37 @@ const crearNuevoProducto = (imagen,nombre, precio,descripcion, id) =>{
 
     const contenido= 
         `
-        <div class="galeria_star">
-            <div class="grid-container">
-                <div class="grid-elemento"><img src="${imagen}"> </div>
-                <div class="grid-elemento">${nombre}</div>
-                <div class="grid-elemento">${precio}</div>
-                <div class="grid-descripcion">
-                    <textarea name="" id="descripcion" cols="300" rows="10">${descripcion}</textarea>
+            <div class="galeria_star">
+                <div class="grid-container">
+                    <div class="grid-elemento"><img src="${imagen}"> </div>
+                    <div class="grid-elemento">${nombre}</div>
+                    <div class="grid-elemento">${precio}</div>
+                    <div class="grid-descripcion">
+                        <textarea name="" id="descripcion" cols="100" rows="10" disabled>${descripcion}</textarea>
+                    </div>
+                    <div class="grid-btn">
+                    <a href="/html/editarProducto.html?id=${id}"><input class="btn_editar" type="submit" value="Editar producto"><img class="edit2" src="/img/edit.png"></img></a> 
+                    <div class="grid-elemento"><button class="btnEliminar" id ='${id}'>Eliminar</button><img class="delete2" src="/img/delete.png"></img></div>
                 </div>
-                <div class="grid-elemento"> <button class="btn" >Modificar</button><img class="edit2" src="/img/edit.png"></img></div>
-                <div class="grid-elemento"><button class="btn">Eliminar</button><img class="delete2" src="/img/delete.png"></img></div>
             </div>
-        </div>
+
         `;
         
-        
-        
-       
-
         tarjeta.innerHTML = contenido;
+
+        const btnEliminar = tarjeta.querySelector('.btnEliminar') 
+        btnEliminar.addEventListener('click', () => {
+            const id = btnEliminar.id
+            
+            productoServices
+            .eliminar(id)
+            .then(respuesta =>{
+                alert("Producto Eliminado")
+            }).catch((err) => alert ("Servidor Fuera de Linea"));
+            
+            //console.log('Eliminar', id);
+
+        });
         return tarjeta;
     };
 

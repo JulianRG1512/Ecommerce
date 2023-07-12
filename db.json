@@ -1,19 +1,18 @@
 {
   "productos": [
-    
     {
-      "imagen": "https://github.com/JulianRG1512/Ecommerce/blob/main/img/Consolas/unsplash_wa5z9o9fgjw.png?raw=true",
-      "nombre": "Controles Switch",
-      "precio": "7800",
-      "descripcion": "Contrsoles Rojo y Azul",
-      "id": "5b72bc91-9d7b-433e-9dd4-6e1922ef2ba3"
+      "imagen": "https://i.ibb.co/XbdThP4/unsplash-b-Uga-Ia-Zys-H0.png",
+      "nombre": "Camiseta Retro Gris Controles Retro",
+      "precio": "25.000",
+      "descripcion": "Camiseta retro de consola ",
+      "id": "c1ab59e8-e118-4c82-8552-d96c10ec77be"
     },
     {
-      "imagen": "https://i.ibb.co/X8NVmGV/unsplash-j-MT6-Brg-Bu-XU.png",
-      "nombre": "Radio",
-      "precio": "8500",
-      "descripcion": "Radio reloj",
-      "id": "02c47de7-f5fe-4a88-aaf8-1ac934f688ce"
+      "imagen": "https://i.ibb.co/jwgMJck/unsplash-r27um-XAel-Dc.png",
+      "nombre": "Picachu Amarillo Coleccionable",
+      "precio": "35.800",
+      "descripcion": "Figura colecionable de picachu",
+      "id": "6a90a369-92eb-4195-8669-5d702fc1a852"
     }
   ]
 }
