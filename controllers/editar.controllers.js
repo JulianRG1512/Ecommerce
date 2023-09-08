@@ -31,30 +31,7 @@ const obtenerInformacion = async () => {
     } catch (error) {
         window.location.href = "/html/error.html"
     }
-/*
-    try {
-        const productos = await productoServices.detalleProducto("id")
-            
-        
-        if (productos.imagen &&  productos.nombre && productos.precio && productos.descripcion) {
-            
-            imagen.value = productos.imagen;
-            nombre.value = productos.nombre;
-            precio.value = productos.precio;
-            descripcion.value = productos.descripcion;
-                    
-        } else {
-            throw new Error();
-        }
-        
-    } catch (error) {
-        
-        window.location.href = "/html/error.html"
-    }
-*/
-    
-    
-    
+
 }
 
 obtenerInformacion();
