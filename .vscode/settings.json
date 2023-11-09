@@ -1,16 +1,16 @@
 {
-    "cSpell.words": [
-        "busqueda",
-        "categoria",
-        "descripcion",
-        "Ecommerce",
-        "FDXGY",
-        "galeria",
-        "imagenes",
-        "informacion",
-        "inpu",
-        "seccion",
-        "unsplash"
-    ],
-    "liveServer.settings.port": 5501
+  "cSpell.words": [
+    "busqueda",
+    "categoria",
+    "descripcion",
+    "Ecommerce",
+    "FDXGY",
+    "galeria",
+    "imagenes",
+    "informacion",
+    "inpu",
+    "seccion",
+    "unsplash"
+  ],
+  "liveServer.settings.port": 5502
 }
