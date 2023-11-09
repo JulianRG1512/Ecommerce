@@ -1,4 +1,4 @@
-const datos_bd = 'http://localhost:3000/productos'
+const datos_bd = 'https://apiecommerce-6rc4.onrender.com/productos'
 
 const gallery = document.getElementById('Gallery')
 

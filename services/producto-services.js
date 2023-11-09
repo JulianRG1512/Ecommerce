@@ -1,10 +1,10 @@
 const listaProductos = () => 
-    fetch ("http://localhost:3000/productos")
+    fetch ("https://apiecommerce-6rc4.onrender.com/productos")
     .then((respuesta) => respuesta.json())
 
 
 const crearDato = (imagen, nombre, precio, descripcion) =>{
-    return fetch("http://localhost:3000/productos",{
+    return fetch("https://apiecommerce-6rc4.onrender.com/productos",{
            method:"POST",
            headers: {
                 "Content-Type": "application/json"
@@ -16,19 +16,19 @@ const crearDato = (imagen, nombre, precio, descripcion) =>{
 
 const eliminar = (id) => {
     console.log("Eliminar a: ", id);
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://apiecommerce-6rc4.onrender.com/productos/${id}`, {
         method: "DELETE",
     })
 }
 
 const detalleProducto = (id) => {
-    return fetch (`http://localhost:3000/productos/${id}`)
+    return fetch (`https://apiecommerce-6rc4.onrender.com/productos/${id}`)
     .then((respuesta) => respuesta.json())
 };
 
 
 const actualizarProducto = (imagen, nombre, precio, descripcion,id ) => {
-    return fetch (`http://localhost:3000/productos/${id}`, {
+    return fetch (`https://apiecommerce-6rc4.onrender.com/productos/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
