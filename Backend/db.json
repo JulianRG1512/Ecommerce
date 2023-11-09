@@ -2,7 +2,7 @@
   "productos": [
     {
       "imagen": "https://i.ibb.co/XbdThP4/unsplash-b-Uga-Ia-Zys-H0.png",
-      "nombre": "Camiseta Retro II",
+      "nombre": "Camiseta Retro ",
       "precio": "25.000",
       "descripcion": "Camiseta retro de consola,Gris Controles Retro",
       "id": "c1ab59e8-e118-4c82-8552-d96c10ec77be"
@@ -37,7 +37,7 @@
     },
     {
       "imagen": "https://i.ibb.co/x3W4ynz/unsplash-wa5z9o9fgjw.png",
-      "nombre": "Controles ",
+      "nombre": "Controles Consolas",
       "precio": "185.000",
       "descripcion": "Controles para consola Switch",
       "id": "07f6de6b-6c90-4129-a145-3872b1614f6e"
