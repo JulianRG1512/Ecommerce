@@ -6,13 +6,133 @@
     
 }
 
-.container{
-    width: 75%;
+.contenedor{
+    width: 100%;
     margin: 0 auto;
-    min-width: 320px;
-    max-width: 1200px;
+    max-width: 1300px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;    
+    background: #FFFFFF;
+    height: 115px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logo{
+    width: 176px;
+    height: 50px;
+    margin-right: 32px;
+}
+
+.cont_busqueda{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
 
 }
+.busqueda{
+    width: 393px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #F5F5F5;;
+    border: none;
+    border-radius: 20px;
+    background-image: url(/img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 350px;
+    outline: none;
+}
+
+.btn-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login{
+    border: 1px solid #2A7AE4;
+    width: 182px;
+    height: 51px;
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.login:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+
+.cont_banner{
+    
+    padding: 32px;
+    height: 350px;
+    background-image: url(/img/banner-image.jpg);
+}
+
+.cont_textos{
+    width: 70%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    color: #F5F5F5;
+    left: 152px;
+    gap: 16px;
+    margin-top: 100px;
+   
+}
+
+.cont_textos h1{
+    width: 751px;
+    height: 61px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #FFFFFF;    
+}
+
+.cont_textos h6{
+    width: 751px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.admin2{
+    border: 1px solid #2A7AE4;
+    width: 182px;
+    height: 51px;
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    translate: 900px;
+}
+
+
+
 
 .gallery{
     padding-top: 1.5rem;
@@ -38,122 +158,9 @@
 }
 
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
-    background: #FFFFFF;
-    height: 115px;
-    padding-left: 152px;
-    padding-right: 152px;
-    flex-wrap: wrap;
-    
-}
-.cont_busqueda{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.logo{
-    width: 176px;
-    height: 50px;
-    margin-right: 32px;
-}
 
-.busqueda{
-    width: 393px;
-    height: 40px;
-    padding: 8px 16px;
-    background-color: #F5F5F5;;
-    border: none;
-    border-radius: 20px;
-    background-image: url(/img/Vector.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: 350px;
-    outline: none;
-}
 
-.login{
-    border: 1px solid #2A7AE4;
-    width: 182px;
-    height: 51px;
-    color: #2A7AE4;
-    background-color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    cursor: pointer;
-}
-
-.admin{
-    border: 1px solid #2A7AE4;
-    width: 182px;
-    height: 51px;
-    color: #2A7AE4;
-    background-color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    cursor: pointer;
-    translate: 250px;
-}
-.admin2{
-    border: 1px solid #2A7AE4;
-    width: 182px;
-    height: 51px;
-    color: #2A7AE4;
-    background-color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    cursor: pointer;
-    translate: 900px;
-}
-
-.cont_banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items:flex-start;
-    padding: 32px;
-    height: 352px;
-    background-image: url(/img/banner-image.png);
-}
-
-.cont_textos{
-    width: 1136px;
-    height: 170px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: center;
-    color: #F5F5F5;
-    left: 152px;
-    gap: 16px;
-    margin-left: 120px;
-}
-
-.cont_textos h1{
-    width: 751px;
-    height: 61px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    color: #FFFFFF;
-    
-}
-
-.cont_textos h6{
-    width: 751px;
-    height: 26px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
 
 .ver_consolas{
     width: 129px;
