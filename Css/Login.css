@@ -111,3 +111,82 @@
     margin: 10px;
     border-radius: 10px;
 }
+
+@media screen and (max-width:720px){
+    .contenedor{
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+    .cont_login{
+        width: 80%;
+        height: 300px;
+    }
+    
+
+    #form_login{
+        width: 60%;
+    }
+    
+    #form_registro{
+        position: absolute;
+        display: flex;
+        top: 130px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cont_login h4{
+        font-size: 14px;
+        width: 200px;
+        
+    }
+    
+    #inpu_nombre{
+        
+        width: 50%;
+        height: 63px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #C8C8C8 ;
+        border-radius: 4px;
+        background: #FFFFFF;
+        padding: 0px 12px;
+        margin: 10px;
+        
+    }
+    
+    #inpu_nombre::placeholder{
+        color: #A2A2A2;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    
+    #inpu_email{
+        
+        width: 100%;
+        height: 40px;
+    }
+        
+    #inpu_login{
+        
+        width: 100%;
+        height: 40px;
+    }
+    
+    
+    #btn_login{
+        width: 60%;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+
+}

@@ -50,11 +50,7 @@
     outline: none;
 }
 
-.btn-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+
 
 .login{
     border: 1px solid #2A7AE4;
@@ -76,10 +72,18 @@
 
 
 .cont_banner{
-    
-    padding: 32px;
-    height: 350px;
-    background-image: url(/img/banner-image.jpg);
+   height: 350px;
+    /*background-image: url(/img/banner-image.jpg);*/
+}
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1300px;
+    min-width: 320px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
 .cont_textos{
@@ -90,9 +94,11 @@
     align-items:flex-start;
     justify-content: center;
     color: #F5F5F5;
-    left: 152px;
+    left: 20%;
     gap: 16px;
-    margin-top: 100px;
+    position: absolute;
+    top:200px
+   
    
 }
 
@@ -162,11 +168,6 @@
     
 }
 
-
-
-
-
-
 .ver_consolas{
     width: 129px;
     height: 51px;
@@ -174,6 +175,130 @@
     border: none;
     font-size: 16px;
     color: #FFFFFF;
+    
+}
+
+
+
+
+@media screen and (max-width:720px){
+    
+.contenedor{
+    width: 80%;
+}
+
+    
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;    
+    height: 115px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.logo{
+    width: 80%;
+    height: 50px;
+    margin-right: 0;
+}
+
+.busqueda{
+   display: none;    
+}
+
+.login{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.cont_banner{
+   
+   height: 100px;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1300px;
+    min-width: 320px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.cont_textos{
+    width: 80%;
+    height: 150px;
+    left: 10%;
+    gap: 0px;
+    position: absolute;
+    top:100px
+}
+
+.cont_textos h1{
+    height: 20px;
+    font-size: 18px;
+    color: #FFFFFF;    
+}
+
+.cont_textos h6{
+    font-size: 10px;
+}
+
+.admin2{
+    border: 1px solid #2A7AE4;
+    width: 182px;
+    height: 51px;
+    color: #2A7AE4;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.admin2:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+
+
+.gallery{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(176px,1fr));
+    grid-gap: 1rem;
+    
+
+}
+
+.card_imagen img{
+    display: block;
+    width: 90%;
+    height: 200px;
+    padding-left: 15%;    
+}
+
+.card_texto {
+    width: 75%;
+    left: 10px;
+    padding: .8rem;
+    text-align: center;
+    background-color: gray;
+    font-size: 14px;
+    margin-left: 48px;
+    
+    
+}
+
+
     
 }
 

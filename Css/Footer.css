@@ -144,7 +144,23 @@ form{
 }
 
 
+@media screen and (max-width:720px){
+    .footer_contacto{
+        display: none;
+    }
+    
+    .footer_info{
+        width: 80%;
 
+    }
+    
+    .footer_info h5,h6{
+        font-size: 12px;
+    }
+    
+
+
+}
 
 
 
