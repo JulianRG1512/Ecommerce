@@ -128,9 +128,13 @@
     font-size: 16px;
     line-height: 19px;
     cursor: pointer;
-    translate: 900px;
+    border-radius: 10px;
 }
 
+.admin2:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
 
 
 

@@ -125,6 +125,7 @@ form{
     font-size: 12px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 

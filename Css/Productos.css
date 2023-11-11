@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 38px;
-    margin: 64px 160px 0px;
+    height: 50px;
     gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-top: 40px;
 }
 
 .galeria_titulo h2{
@@ -35,13 +38,16 @@
     color: #2A7AE4;
 }
 
+
+
+
 .galeria_star{
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0px 160px 0px;
+    
 }
 
 /*
@@ -126,6 +132,7 @@
     padding: 5px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .btn_editar{
@@ -137,10 +144,13 @@
     padding: 5px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .grid-container {
     display: grid;
+    
+
   }
   .grid-container {
     display: grid;
@@ -176,7 +186,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px 20px 20px 260px;
+    margin: 20px 20px 20px 55px;
     user-select: none;
 }
 
@@ -188,7 +198,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 20px 20px 20px 100px;
+    margin: 20px 20px 20px 20px;
     user-select: none;
 }
 
@@ -213,6 +223,7 @@
     height: 20px;
     transform: translate(55px, -34px);
     opacity: 0.5;
+    
 }
 .delete2:hover{
     opacity: 2;
