@@ -6,6 +6,7 @@
     background: #F5F5F5;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
     
     
 }
@@ -108,4 +109,5 @@
     border: none;
     cursor: pointer;
     margin: 10px;
+    border-radius: 10px;
 }
